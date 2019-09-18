@@ -47,6 +47,6 @@ public class Employee {
      */
     public void raiseSalary(double byPercent) {
       this.byPercent = byPercent;
-      currentSalary = currentSalary * (1 + byPercent/100);
+      currentSalary = currentSalary *(1 + byPercent/100);
     }
 }
