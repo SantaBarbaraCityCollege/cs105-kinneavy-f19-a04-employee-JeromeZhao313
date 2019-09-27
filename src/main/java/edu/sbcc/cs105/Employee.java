@@ -29,7 +29,6 @@ public class Employee {
       this.employeeName = employeeName;
       this.currentSalary = currentSalary;
     }
-
     // Accessors that are obvious and have no side effects don't have to have
     // any documentation unless you are creating a library to be used by other
     // people.
